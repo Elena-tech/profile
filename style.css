@@ -1,0 +1,116 @@
+body{
+  background: #F7F9FC;
+  color: #0D3D4A;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  text-align: center;
+}
+h1, h2{
+  font-family: 'Playfair Display', cursive;;
+  color: #2A7089;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+a {
+    font-family: 'Playfair Display', sans-serif;
+    text-decoration: none;
+    color: #6497A9;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F2F6F6;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-white {
+    background-color: white;
+    background-image: url("https://images.unsplash.com/photo-1529878159390-c65e99367a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=935&q=80");
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.6);
+}
+
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.btn-blue {
+    background-color: #73AAC4;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.5);
+}
+
+#banner{
+    background-color: white;
+    background-image: url("https://images.unsplash.com/photo-1554467122-4389ffc82ffa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=913&q=80");
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
